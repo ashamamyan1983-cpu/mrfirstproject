@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="section">
+    <header>
+      <div class="header_block logo">
+        <h1>Logo</h1>
+      </div>
+      <div class="header_block list">
+        <p>Shirts</p>
+        <p>Dresses</p>
+        <div class="dropdown">
+          <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Jeans
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Relaxed</a></li>
+            <li><a class="dropdown-item" href="#">Bootcut</a></li>
+            <li><a class="dropdown-item" href="#">Stright</a></li>
+          </ul>
+        </div>
+        <p>Jackets</p>
+        <p>Gymwear</p>
+        <p>Blazers</p>
+        <p>Shoes</p>
+      </div>
+      <div class="header_block list">
+        <a href="#contact">Contact</a>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Newsletter
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">NEWSLETTER</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <span>Join our mailing list to receive updates on new arrivals and special offers.</span>
+              <div class="modal-body">
+
+                <input type="email" placeholder="Enter e-mail">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn  btn-danger" data-bs-dismiss="modal">Subscribe</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <a href="#Subscribe">Subscribe</a>
+      </div>
+      <p class="burger">☰</p>
+
+
+    </header>
+    <main>
+      <div class="jeans">
+        <h4>JEANS</h4>
+        <div class="icons">
+          <img src="./imges/cart.png" alt="cart">
+          <img src="./imges/search.png" alt="search">
+        </div>
+      </div>
+      <div class="new">
+        <div class="text">
+          <h2> New Arrivals</h2>
+          <p>COLLECTION 2016</p>
+          <a href="#items">Shop now</a>
+        </div>
+
+      </div>
+      <p id="items">8 items</p>
+      <div class="items">
+        <div class="box nkar1">
+          <div class="text">
+            <span>Ripped Skinny Jeans</span><br>
+            <b>$24.99</b>
+          </div>
+        </div>
+        <div class="box nkar2">
+          <div class="text">
+            <span>Ripped Skinny Jeans</span><br>
+            <b>$24.99</b>
+          </div>
+          <p>New</p>
+          <button>Buy now <img src="./imges/cart.png" alt=""></button>
+        </div>
+        <div class="box nkar3">
+          <div class="text">
+            <span>Ripped Skinny Jeans</span><br>
+            <b>$24.99</b>
+          </div>
+
+        </div>
+        <div class="box nkar4">
+          <div class="text">
+            <span>Ripped Skinny Jeans</span><br>
+            <b>$24.99</b>
+          </div>
+        </div>
+        <div class="box nkar5">
+          <div class="text">
+
+            <span>Ripped Skinny Jeans</span><br>
+            <b>$24.99</b>
+          </div>
+        </div>
+        <div class="box nkar6">
+          <div class="text">
+            <span>Ripped Skinny Jeans</span><br>
+            <b>$24.99</b>
+          </div>
+        </div>
+        <div class="box nkar7">
+          <div class="text">
+            <span>Ripped Skinny Jeans</span><br>
+            <b>$24.99</b>
+          </div>
+          <p>Sale</p>
+          <button>Buy now <img src="./imges/cart.png" alt=""></button>
+        </div>
+        <div class="box nkar8">
+          <div class="text">
+            <span>Ripped Skinny Jeans</span><br>
+            <b>$24.99</b>
+          </div>
+        </div>
+      </div>
+      <div class="subs">
+        <h2>Subscribe</h2>
+        <p>To get special offers and VIP treatment:</p>
+        <input type="email" placeholder="Enter e-mail">
+        <button id="Subscribe">Subscribe</button>
+
+      </div>
+      <div class="contact" id="contact">
+        <div class="child about">
+          <h4>About</h4>
+          <ul>
+            <li><a href="/">About us</a></li>
+            <li><a href="/">We're hiring</a></li>
+            <li><a href="/">Support</a></li>
+            <li><a href="/">Find store</a></li>
+            <li><a href="/">Shipment</a></li>
+            <li><a href="/">Payment</a></li>
+            <li><a href="/">Gift card</a></li>
+            <li><a href="/">Return</a></li>
+            <li><a href="/">Help</a></li>
+          </ul>
+        </div>
+        <div class="child store">
+          <h4>Store</h4>
+          <ul>
+            <li><img src="./imges/location.png" alt=""> Company Name</li>
+            <li><img src="./imges/icons8-call-48.png" alt=""> <a href="tel:+37494445657">094445657</a></li>
+            <li><img src="./imges/letter.png" alt=""><a href="mailto:ashamamyan1983@gmail.com">ashamamyan1983@gmail.com</a> </li>
+            <li>
+              <b>We accept</b>
+            </li>
+            <li><img src="./imges/amex.png" alt=""> Amex</li>
+            <li><img src="./imges/credit card.png" alt=""> Credit card</li><br>
+            <li><img src="./imges/face.png" alt=""> <img src="./imges/inst.png" alt=""> <img src="./imges/pinterest.png"
+                alt=""> <img src="./imges/twitter.png" alt=""> <img src="./imges/linkedin.png" alt=""></li>
+
+
+
+          </ul>
+        </div>
+      </div>
+
+      <footer>
+        <p>Powerby <a href="https://www.facebook.com/armine.shamamyan.1">Armine Shamamyan</a></p>
+      </footer>
+    </main>
+  </div>
+
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
